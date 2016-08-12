@@ -17,7 +17,9 @@ defmodule ExZendesk.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.9.0"}, {:poison, "~> 2.0"}]
+    [{:httpoison, "~> 0.9.0"},
+     {:poison, "~> 2.0"},
+     {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
   defp description do
